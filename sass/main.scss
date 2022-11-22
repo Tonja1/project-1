@@ -1,6 +1,6 @@
 // utils styles
 @import "./utils/variables";
-@import "./utils/visually-hidden";
+
 
 // base styles
 
@@ -8,30 +8,17 @@
 @import "./base/container";
 @import "./base/reset";
 
-// visually hiddens
-@import "./utils/visually-hidden";
-
 
 // layout styles
-@import "./layouts/heder";
-@import "./layouts/hero";
-@import "./layouts/modal";
-@import "./layouts/pref";
-@import "./layouts/work";
-@import "./layouts/team";
-@import "./layouts/clients";
-@import "./layouts/footer";
-@import "./layouts/portfolio";
+
+@import "./layouts/contacts";
+
 
 
 // components styles
-@import "./components/btn";
-@import "./components/nav";
-@import "./components/logo";
-@import "./components/backdrop";
+
 @import "./components/subtitle";
-@import "./components/sicials";
-@import "./components/mobilemenu";
+
 
 
 

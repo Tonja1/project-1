@@ -1,0 +1,192 @@
+
+.feedback {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+
+    color: #ffffff;
+    width: 296px;
+    height: 76px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 1.17;
+        width: 496px;
+        height: 112px;
+
+    }
+}
+
+
+.feedbac__text {
+    margin-bottom: 24px;
+}
+
+.contacts__wrap {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        gap: 34px;
+        flex-wrap: wrap;
+    }
+}
+
+.contacts__list {
+    
+    margin-bottom: 24px;
+}
+
+.contacts__link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: #8d9289;
+
+    @media screen and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 1.17;
+    }
+}
+
+.mail {
+    color: #ffffff;
+}
+
+.contacts__link:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.contacts__tel {
+    
+    margin-bottom: 24px;
+}
+
+.contacts__num {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: #8d9289;
+
+    @media screen and (min-width: 768px) {
+            font-size: 24px;
+            line-height: 1.17;
+        }
+}
+
+.text {
+    color: #ffffff;
+}
+
+.contacts__num:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.registr__form {
+    width: 145px;
+    left: 17px;
+}
+
+.registr__form__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 16px;
+    color: #86e543;
+}
+
+.registr__form__group {
+    width: 298px;
+    margin-bottom: 24px;
+}
+
+.registr__field {
+    display: block;
+    position: relative;
+}
+
+.registr__lable {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    display: block;
+    text-align: left;
+    text-transform: capitalize;
+
+    margin-bottom: 4px;
+    color: #ffffff;
+}
+
+.registr__input {
+    width: 100%;
+    height: 24px;
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid #86e543;
+    margin-bottom: 44px;
+}
+
+.registr__input ::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+.registr__message {
+    width: 100%;
+    background: transparent;
+    border: transparent;
+    border: 1px solid #86e543;
+}
+
+.registr__message ::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.14;
+    color: #ffffff;
+}
+
+.registr__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 10px;
+    background: transparent;
+    width: 173px;
+    height: 51px;
+    border: 1px solid #ffffff;
+    border-radius: 16px;
+
+    margin-left: 60px;
+}
+
+.registr__btn__text {
+    width: 41px;
+    height: 19px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+
