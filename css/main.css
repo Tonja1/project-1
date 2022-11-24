@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   margin: 0;
 }
 
@@ -41,11 +41,13 @@ body {
     background-image: url(/images/img/Frame-4522-tab-1x.jpg);
     padding-left: 40px;
     padding-right: 40px;
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 1280px) {
   .contacts {
     background-image: url(/images/img/Frame-4522-tab-2x.jpg);
+    max-width: 1280px;
   }
 }
 
@@ -109,11 +111,17 @@ a {
     gap: 34px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-bottom: 40px;
   }
 }
 
 .contacts__list {
   margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .contacts__list {
+    margin-bottom: 0;
+  }
 }
 
 .contacts__link {
@@ -142,6 +150,11 @@ a {
 .contacts__tel {
   margin-bottom: 24px;
 }
+@media screen and (min-width: 768px) {
+  .contacts__tel {
+    margin-bottom: 0;
+  }
+}
 
 .contacts__num {
   font-family: "Roboto";
@@ -167,8 +180,14 @@ a {
 }
 
 .registr__form {
-  width: 145px;
-  left: 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .registr__form {
+    margin-left: 49px;
+    margin-right: 48px;
+  }
 }
 
 .registr__form__title {
@@ -180,10 +199,24 @@ a {
   margin-bottom: 16px;
   color: #86e543;
 }
+@media screen and (min-width: 768px) {
+  .registr__form__title {
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 48px;
+  }
+}
 
 .registr__form__group {
   width: 298px;
   margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .registr__form__group {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 589px;
+  }
 }
 
 .registr__field {
@@ -213,35 +246,35 @@ a {
   margin-bottom: 44px;
 }
 
-.registr__input ::-webkit-input-placeholder {
+.registr__input::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.25;
   color: #ffffff;
 }
 
-.registr__input ::-moz-placeholder {
+.registr__input::-moz-placeholder {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.25;
   color: #ffffff;
 }
 
-.registr__input :-ms-input-placeholder {
+.registr__input:-ms-input-placeholder {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.25;
   color: #ffffff;
 }
 
-.registr__input ::-ms-input-placeholder {
+.registr__input::-ms-input-placeholder {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.25;
   color: #ffffff;
 }
 
-.registr__input ::placeholder {
+.registr__input::placeholder {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.25;
@@ -255,35 +288,35 @@ a {
   border: 1px solid #86e543;
 }
 
-.registr__message ::-webkit-input-placeholder {
+.registr__message::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.14;
   color: #ffffff;
 }
 
-.registr__message ::-moz-placeholder {
+.registr__message::-moz-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.14;
   color: #ffffff;
 }
 
-.registr__message :-ms-input-placeholder {
+.registr__message:-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.14;
   color: #ffffff;
 }
 
-.registr__message ::-ms-input-placeholder {
+.registr__message::-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.14;
   color: #ffffff;
 }
 
-.registr__message ::placeholder {
+.registr__message::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.14;
@@ -291,20 +324,12 @@ a {
 }
 
 .registr__btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 16px 20px;
   gap: 10px;
   background: transparent;
   width: 173px;
@@ -313,18 +338,42 @@ a {
   border-radius: 16px;
   margin-left: 60px;
 }
+@media screen and (min-width: 768px) {
+  .registr__btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 306px;
+    height: 70px;
+    margin-left: 150px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 
 .registr__btn__text {
-  width: 41px;
-  height: 19px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19px;
   text-align: right;
   text-transform: uppercase;
   color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .registr__btn__text {
+    font-size: 32px;
+    line-height: 1.19px;
+  }
 }
 
 .subtitle {

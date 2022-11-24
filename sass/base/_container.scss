@@ -2,7 +2,7 @@
     // breakpoints:
     // mobile - 480px
     // tablet - 768px
-    // desktop - 1200px
+    // desktop - 1280px
     
     
 
@@ -22,10 +22,12 @@
         background-image: url(/images/img/Frame-4522-tab-1x.jpg);
         padding-left: 40px;
         padding-right: 40px;
+        max-width: 768px;
     }
 
     @media screen and (min-width: 1280px) {
         background-image: url(/images/img/Frame-4522-tab-2x.jpg);
+        max-width: 1280px;
         
     }
 }
