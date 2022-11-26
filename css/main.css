@@ -50,21 +50,6 @@ img {
   width: 100%;
   height: auto;
 }
-@media screen and (min-width: 768px) {
-  img {
-    width: 688px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  img {
-    width: 1200px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  img {
-    width: 1200px;
-  }
-}
 
 ul {
   margin: 0;
@@ -83,17 +68,6 @@ a {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .section__wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 15px;
   }
 }
 
