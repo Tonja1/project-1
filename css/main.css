@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
@@ -60,6 +60,11 @@ img {
     width: 1200px;
   }
 }
+@media screen and (min-width: 1280px) {
+  img {
+    width: 1200px;
+  }
+}
 
 ul {
   margin: 0;
@@ -78,6 +83,17 @@ a {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 15px;
   }
 }
 
@@ -107,6 +123,11 @@ a {
     margin-top: 59px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .feedback__list {
+    margin-top: 59px;
+  }
+}
 
 .feedbac__text {
   margin-bottom: 24px;
@@ -123,6 +144,11 @@ a {
     margin-bottom: 40px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .contacts__wrap {
+    display: inherit;
+  }
+}
 
 .contacts__list {
   margin-bottom: 24px;
@@ -130,6 +156,11 @@ a {
 @media screen and (min-width: 768px) {
   .contacts__list {
     margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts__list {
+    margin-bottom: 40px;
   }
 }
 
@@ -261,40 +292,52 @@ a {
   border-bottom: 1px solid #86e543;
   margin-bottom: 44px;
 }
-
 .registr__input::-webkit-input-placeholder {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.25;
   color: #ffffff;
 }
-
 .registr__input::-moz-placeholder {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.25;
   color: #ffffff;
 }
-
 .registr__input:-ms-input-placeholder {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.25;
   color: #ffffff;
 }
-
 .registr__input::-ms-input-placeholder {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.25;
   color: #ffffff;
 }
-
 .registr__input::placeholder {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.25;
   color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .registr__input::-webkit-input-placeholder {
+    font-size: 18px;
+  }
+  .registr__input::-moz-placeholder {
+    font-size: 18px;
+  }
+  .registr__input:-ms-input-placeholder {
+    font-size: 18px;
+  }
+  .registr__input::-ms-input-placeholder {
+    font-size: 18px;
+  }
+  .registr__input::placeholder {
+    font-size: 18px;
+  }
 }
 
 .registr__message {
@@ -303,40 +346,52 @@ a {
   border: transparent;
   border: 1px solid #86e543;
 }
-
 .registr__message::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.14;
-  color: #ffffff;
+  color: #CDCDCD;
 }
-
 .registr__message::-moz-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.14;
-  color: #ffffff;
+  color: #CDCDCD;
 }
-
 .registr__message:-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.14;
-  color: #ffffff;
+  color: #CDCDCD;
 }
-
 .registr__message::-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.14;
-  color: #ffffff;
+  color: #CDCDCD;
 }
-
 .registr__message::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.14;
-  color: #ffffff;
+  color: #CDCDCD;
+}
+@media screen and (min-width: 768px) {
+  .registr__message::-webkit-input-placeholder {
+    font-size: 18px;
+  }
+  .registr__message::-moz-placeholder {
+    font-size: 18px;
+  }
+  .registr__message:-ms-input-placeholder {
+    font-size: 18px;
+  }
+  .registr__message::-ms-input-placeholder {
+    font-size: 18px;
+  }
+  .registr__message::placeholder {
+    font-size: 18px;
+  }
 }
 
 .registr__btn {
@@ -419,5 +474,6 @@ a {
 @media screen and (min-width: 1280px) {
   .subtitle {
     margin-left: 142px;
+    margin-bottom: 75px;
   }
 }/*# sourceMappingURL=main.css.map */

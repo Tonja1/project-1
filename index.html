@@ -19,15 +19,16 @@
     <title>Contacts</title>
   </head>
   <section class="contacts">
+    <div class="section__wrap">
     <h2 class="subtitle">Contacts</h2>
     <div class="contacts__main">
       <picture>
         <source
           srcset="
-            /images/img/contacts-desktop-1x.jpg 1x,
-            /images/img/contacts-desktop-2x.jpg 2x
+            /images/img/contacts-mobile-1x.jpg 1x,
+            /images/img/contacts-mobile-2x.jpg 2x
           "
-          media="(min-width=1280)"
+          media="(max-width=767)"
         />
         <source
           srcset="
@@ -38,14 +39,14 @@
         />
         <source
           srcset="
-            /images/img/contacts-mobile-1x.jpg 1x,
-            /images/img/contacts-mobile-2x.jpg 2x
+            /images/img/contacts-desktop-1x.jpg 1x,
+            /images/img/contacts-desktop-2x.jpg 2x
           "
           media="(max-width=767)"
         />
-        <img src="/images/img/contacts-mobile-1x.jpg" alt="foto" width="1200" />
-      </picture>
-      <div class="feedback">
+        <img src="/images/img/contacts-mobile-1x.jpg" alt="foto" />
+        </picture>
+        <div class="feedback">
         <ul class="feedback__list">
           <li class="feedbac__text">
             <p>
@@ -114,6 +115,6 @@
           </button>
         </form>
       </div>
-    </div>
+    </div> 
   </section>
 </html>
